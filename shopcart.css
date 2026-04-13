@@ -1,0 +1,185 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: 0;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  gap: 70px;
+  padding: 10px 10px;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+nav span {
+  display: flex;
+  padding: 0px 0px 0px 5 0px;
+  align-items: center;
+  gap: 10px;
+  color: rgb(47, 100, 47);
+  font-size: 12px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav ul {
+  list-style: none;
+}
+nav select {
+  border-style: none;
+  font-size: 15px;
+}
+nav input {
+  width: 250px;
+  border-style: none;
+  background-color: rgb(222, 217, 217);
+  border-radius: 30px;
+  padding: 5px 5px;
+}
+.divtext {
+  width: 90%;
+  background-color: rgb(241, 217, 185);
+  margin-left: 50px;
+  padding-bottom: 60px;
+}
+.divtext h1 {
+  width: 400px;
+  padding: 50px 0px 30px 120px;
+  color: rgb(47, 100, 47);
+}
+.divtext a {
+  text-decoration: none;
+  margin: 0px 0px 90px 120px;
+  background-color: rgb(47, 100, 47);
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+}
+.select {
+  width: 90%;
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.select select {
+  border-style: none;
+  border-radius: 30px;
+  padding: 5px 9px;
+  background-color: rgb(222, 222, 222);
+}
+span .lastsec {
+  background-color: #fff;
+  border: solid 1px;
+}
+.page2 .head {
+  margin: 0px 0px 0px 50px;
+  font-size: 30px;
+}
+section .second {
+  width: 90%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: auto;
+  padding: 30px;
+  gap: 30px;
+}
+.page2 .item {
+  width: 250px;
+  padding: 30px;
+}
+.second .item h1 {
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.second .text {
+  line-height: 20px;
+  padding: 20px 0px;
+}
+.second .text p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.second .text .star span {
+  color: green;
+  margin-bottom: 15px;
+}
+
+.text a {
+  text-decoration: none;
+  color: #000;
+  border: solid 1px;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: rgb(47, 100, 47);
+}
+.text a:hover {
+  background-color: green;
+  color: #fff;
+}
+.item{
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+}
+@media (max-width: 850px) {
+  nav ul {
+    display: none;
+  }
+  .topsec {
+    display: none;
+  }
+  input,
+  .a {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .divtext {
+    width: 300px;
+  }
+ .item{
+   align-items: center;
+   justify-content: center;
+    
+ }
+
+  .divtext h1 {
+    width: 90%;
+    padding-left: 15px;
+  }
+  .divtext a {
+    margin-left: 15px;
+  }
+  .select span {
+    width: 20%;
+    align-items: center;
+  }
+  .select .span1 {
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+  }
+  .first {
+    width: 300px;
+  }
+}
